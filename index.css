@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 148px;
+  height: 148px;
+  border: 1px dashed #c0ccda;
+  border-radius: 6px;
+  font-size: 60px;
+  color: #c0ccda;
+  background-color: #fbfdff;
+  text-align: center;
+  line-height: 148px;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  transition: 1s;
+}
+
+#container:hover {
+  border-color: #409eff;
+  color: #409eff;
+}
+
+.file {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 148px;
+  height: 148px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
